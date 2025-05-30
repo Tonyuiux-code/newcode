@@ -78,3 +78,13 @@
       <p class="toggle-link">Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
     </form>
   </div>
+  <!-- Commit 40: Toggle script -->
+  <script>
+    function toggleForms() {
+      const loginForm = document.getElementById('login-form');
+      const registerForm = document.getElementById('register-form');
+
+      loginForm.classList.toggle('hidden');
+      registerForm.classList.toggle('hidden');
+    }
+  </script>
